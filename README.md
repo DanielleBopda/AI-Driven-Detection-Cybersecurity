@@ -5,7 +5,7 @@
 ---
 
 ## 📘 Table of Contents
- [1. Project Overview](#1-project-overview)
+- [1. Project Overview](#1-project-overview)
 - [2. Business Context](#2-business-context)
 - [3. Data Structure & Initial Diagnostics](#3-data-structure--initial-diagnostics)
 - [4. Executive Summary](#4-executive-summary)
@@ -129,7 +129,7 @@ This section presents core visualizations from the project and explains what the
 
 ![Bar Chart](assets/Data%20Visualization%202_Bar%20Chart.png)
 
-### 🔎 Interpretation
+###  Interpretation
 
 This bar chart displays the distribution of BENIGN traffic compared to each attack type. The key observations are:
 
@@ -139,7 +139,7 @@ This bar chart displays the distribution of BENIGN traffic compared to each atta
 
 From a modeling point of view, this confirms that we are dealing with a **severely imbalanced multi-class classification problem**.
 
-### 💼 Business Value
+###  Business Value
 
 For security and leadership teams, this visualization highlights:
 
@@ -155,7 +155,7 @@ Imbalance is not just a mathematical issue; it is a **risk and governance issue*
 
 ![Correlation Heatmap](assets/Data%20Visualization_Correlation%20Heatmap.png)
 
-### 🔎 Interpretation
+###  Interpretation
 
 The correlation heatmap shows how different numerical features move together:
 
@@ -164,7 +164,7 @@ The correlation heatmap shows how different numerical features move together:
 
 By understanding which features are redundant and which carry unique information, I can simplify the model and focus on the most informative signals.
 
-### 💼 Business Value
+###  Business Value
 
 For the business:
 
@@ -180,7 +180,7 @@ This is an example of how **good feature understanding links directly to operati
 
 ![Decision Tree](assets/Figure%201_Decision%20Tree%20Model.png)
 
-### 🔎 Interpretation
+###  Interpretation
 
 The Decision Tree model reached **~96% accuracy** and produced clear decision paths:
 
@@ -188,7 +188,7 @@ The Decision Tree model reached **~96% accuracy** and produced clear decision pa
 - Its splitting logic can be traced and explained, which helps security teams understand why the model labeled a flow as malicious or benign.  
 - While it may not capture every complex edge case, it provides a solid backbone for high-volume intrusion detection.
 
-### 💼 Business Value
+###  Business Value
 
 Decision Trees work very well for organizations that need both **performance and transparency**:
 
@@ -206,7 +206,7 @@ This makes the Decision Tree a practical and low-friction candidate for deployme
 
 ![NN Accuracy & Loss](assets/Neural%20Network-Model%20Accuracy%20&%20Model%20Loss.png)
 
-### 🔎 Interpretation
+###  Interpretation
 
 The Neural Network was trained on the same dataset but achieved only **~32% accuracy**, and its learning curves show signs of **underfitting**. This is not unusual when applying generic feed-forward architectures to highly structured and imbalanced tabular data:
 
@@ -215,7 +215,7 @@ The Neural Network was trained on the same dataset but achieved only **~32% accu
 
 This experiment is important because it shows that “more complex” does not always mean “more effective.”
 
-### 💼 Business Value
+###  Business Value
 
 From a business and engineering point of view, this result:
 
