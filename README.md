@@ -311,5 +311,5 @@ Being transparent about these limitations is essential for responsible AI and re
 # 📌 Final Note  
 
 This project is written to support both technical and non-technical audiences.  
-It is designed to help recruiters, SOC managers, engineering teams, and executive leaders understand the practical business value of AI-driven intrusion detection systems.  
+It is designed to help stakeholders from various sectors understand the practical business value of AI-driven intrusion detection systems.  
 My goal is to demonstrate not only model performance, but also the operational and strategic “why” behind every decision.
